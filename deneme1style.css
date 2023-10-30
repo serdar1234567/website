@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 22px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #000000; /* Web sayfasının arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+}
+@keyframes color-change{
+    0% {
+        color: blue;
+      }
+    
+      50% {
+        color: red;
+      }
+    
+      100% {
+        color: blue;
+      }
+}
+h1{
+    color: #3c00ff; /* Başlık rengi */
+    font-size: 44px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+h1:hover{
+    animation: color-change 1s infinite;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace ;
+    font-size: x-large;
+    color: yellow;
+    background-color: blue;
+}
+h2:hover{
+    animation: color-change 1s infinite;
+}
